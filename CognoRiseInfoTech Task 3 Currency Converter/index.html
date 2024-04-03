@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <div class="form-group">
+            <label for="from">From:</label>
+            <select id="from" class="form-control"></select>
+            <input type="number" id="amount" class="form-control" placeholder="Amount">
+        </div>
+        <div class="form-group">
+            <label for="to">To:</label>
+            <select id="to" class="form-control"></select>
+            <button id="convert" class="btn btn-primary">Convert</button>
+        </div>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
